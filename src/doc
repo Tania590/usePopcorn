@@ -1,0 +1,97 @@
+1 link / day
+
+1. https://react.dev/learn (done)
+2. https://react.dev/learn/updating-objects-in-state (done)
+3. https://react.dev/learn/thinking-in-react (done)
+4. https://react.dev/learn/describing-the-ui (done)
+5. https://react.dev/learn/your-first-component (done)
+6. https://react.dev/learn/importing-and-exporting-components (done)
+7. https://react.dev/learn/writing-markup-with-jsx (done)
+8. https://react.dev/learn/javascript-in-jsx-with-curly-braces (done)
+9. https://react.dev/learn/passing-props-to-a-component (done)
+10. https://react.dev/learn/conditional-rendering (done)
+11. https://react.dev/learn/rendering-lists (done)
+12. https://react.dev/learn/keeping-components-pure (done)
+13. https://react.dev/learn/understanding-your-ui-as-a-tree (done)
+14. https://react.dev/learn/adding-interactivity (done)
+15. https://react.dev/learn/responding-to-events (done)
+16. https://react.dev/learn/state-a-components-memory (done)
+17. https://react.dev/learn/choosing-the-state-structure (done)
+18. https://react.dev/learn/sharing-state-between-components (done)
+19. https://react.dev/learn/render-and-commit (done)
+20. https://react.dev/learn/state-as-a-snapshot (done)
+21. https://react.dev/learn/queueing-a-series-of-state-updates (done)
+22. https://react.dev/learn/updating-arrays-in-state (done)
+
+23. https://react.dev/learn/referencing-values-with-refs (done)
+24. https://react.dev/learn/manipulating-the-dom-with-refs (done)
+25. https://react.dev/learn/reacting-to-input-with-state (done)
+26. https://react.dev/learn/preserving-and-resetting-state (done)
+27. https://react.dev/reference/react/useRef (done)
+28. https://react.dev/learn/synchronizing-with-effects (done)
+29. https://react.dev/reference/react/useState (done)
+30. https://react.dev/learn/reusing-logic-with-custom-hooks (done)
+31. https://react.dev/learn/managing-state (curr)
+    Extracting state logic into a reducer se
+32. https://react.dev/learn/extracting-state-logic-into-a-reducer (done)
+<!-- **************************************************************************************** -->
+
+33. https://react.dev/learn/escape-hatches (curr)
+    Lifecycle of reactive effects se
+34. https://react.dev/learn/you-might-not-need-an-effect (curr)
+    Sharing logic between event handlers se
+35. https://react.dev/reference/react/useEffect(curr)
+
+<!-- **************************************************************************************** -->
+
+30.
+31.
+
+32.
+
+<!-- *********************************************************************************** -->
+
+35. https://react.dev/reference/react/apis
+    https://react.dev/reference/react
+    https://react.dev/reference/react-dom
+
+    **\*\***\***\*\***key concepts : State , Props
+
+x. https://react.dev/learn/installation (last)
+
+<!-- ********************************************************************************************** -->
+
+(Rendering Lists): Keys tell React which array item each component corresponds to, so that it can match them up later.
+What do you do when each item needs to render not one, but several DOM nodes?
+The short <>...</> Fragment syntax won’t let you pass a key, so you need to either group them into a single <div>, or use the slightly longer and more explicit <Fragment> syntax:
+
+if our data is not coming from a database, that is, we do not have a db id, crypto.randomUUID() will generate random unique ids for us, that we can then use as keys
+
+if you have a form with many fields, it’s more convenient to have a single state variable that holds an object than state variable per field.
+State is private to the component. If you render it in two places, each copy gets its own state.
+
+---
+
+Project Work:
+
+---
+
+tempMovieData = [obj1, obj2, ..]
+tempWatchedData = [obj1, obj2, ...] ---- movies that been watched
+
+Untitled content :
+My Main doesnt contain any state at all (but props yes) and my NavBar contains a prop (movies)
+
+I have the movies state inside App
+ListBox contains one state (isOpen1) and a handler function
+
+WatchedBox (contains the other div)
+(((((((((((((((((((((((((((((((((((((((((((((((())))))))))))))))))))))))))))))))))))))))))))))))
+
+StatusBar, SaveButton
+
+we have a file : src/useOnlineStatus.js
+
+export function useOnlineStatus () {
+
+}
